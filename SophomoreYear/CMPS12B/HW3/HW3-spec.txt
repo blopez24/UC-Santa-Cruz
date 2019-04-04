@@ -1,0 +1,11 @@
+# Spec file for HW3 of CMPS12B-01, Fall 2018
+#
+#################
+f1: Makefile
+f2: README
+c1: make
+e1: ChessMoves.jar
+p1: java -jar ChessMoves.jar
+t1: simple-input.txt
+o1: out.txt
+i1: simple-output.txt

@@ -1,1 +1,18 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#
+# Date:         10/30/17
+#
+# Assignment:   Program 3: Sketch to Animation
+#               CMPS 5J, Introduction to Programming in Java
+#               UC Santa Cruz, Fall 2017
+# 
+# Description:  This program includes a dark blue sky with a stationary moon.
+#               Clouds loop around the background. Rotating star can be moved
+#               along the x axis with depending on the mouse location. Bus
+#               moves along the highway and color can be changed depending which
+#               key is pressed (R, G, B). Billboard appears above the highway
+#               and has art drawn into it randomly.
+# 
+# Notes:        This program is intended to be run from the Processing IDE.
+##################################################################################

@@ -1,1 +1,15 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#
+# Date:         
+#
+# Assignment:   Program 5: User defined methods
+#               CMPS 5J, Introduction to Programming in Java
+#               UC Santa Cruz, Fall 2017
+# 
+# Description:  This program draws a quilt.
+#               Everytime a key is pressed it draws different quilts of different sizes.
+#               Also, it draws 3 different types of panels.
+# 
+# Notes:        This program is intended to be run from the Processing IDE.
+##################################################################################

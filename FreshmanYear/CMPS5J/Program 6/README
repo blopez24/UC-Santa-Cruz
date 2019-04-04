@@ -1,1 +1,22 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#               Vargha, Koorous 
+# Date:         
+#
+# Assignment:   Program 5: Lunar Lander
+#               CMPS 5J, Introduction to Programming in Java
+#               UC Santa Cruz, Fall 2017
+# 
+# Description:  At the beginning it displays a rocket at the center of the sketchpad.
+#               To increase thrust on the rocket, move mouse to top half of sketchpad.
+#               To decrease thrust on the rocket, move mouse to bottom half of sketchpad.
+#               To control positioning of rocket, use left and right arrow keys.
+#               The rocket will explode if you crash into the mountain.
+#               The rocket will explode if you land at too high of a horizontal or vertical velocity on the launchad.
+#               The rocket will explode if you attempt to land on the nose cone of the rocket.
+#               The fuel gague will deplete more as you increase the thrust.
+#               After the rocket fuel runs out, you will have a limited amount of time before the oxygen in the spaceship runs out.
+#               Everyone inside the spaceship will die, if the rocket runs out of oxygen after all fuel is expended.
+# 
+# Notes:        This program is intended to be run from the Processing IDE.
+##################################################################################

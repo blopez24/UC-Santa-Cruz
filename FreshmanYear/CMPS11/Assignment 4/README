@@ -1,1 +1,14 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#
+# Date:         March 2, 2018
+#
+# Assignment:   Program 4: Inheritance and Polymorphism
+#               CMPS11: Intermediate Programming
+#               UC Santa Cruz, Winter 2018
+# 
+# Description:  Java program to implement classes and methods for geometrical
+#               shapes using inheritance and polymorphism. 
+# 
+# Notes:        This program was created in Eclipse IDE.
+##################################################################################

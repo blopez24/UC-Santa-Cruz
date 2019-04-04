@@ -1,1 +1,18 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#
+# Date:         
+#
+# Assignment:   Program 4: Loops and Conditions
+#               CMPS 5J, Introduction to Programming in Java
+#               UC Santa Cruz, Fall 2017
+# 
+# Description:  This program creates a ocean with a dock.
+#               By clicking the mouse within the "Call Ship" sign, it will call a ship. 
+#               When it moves offscreen it will reset the ship's x coordinate back to its original position.
+#               This program also creates looping clouds, and a looping star that rotates.
+#               Fish jump out the water by clicking on the sea. 
+#               Fireworks can be actived once by clicking on the button.
+# 
+# Notes:        This program is intended to be run from the Processing IDE.
+##################################################################################

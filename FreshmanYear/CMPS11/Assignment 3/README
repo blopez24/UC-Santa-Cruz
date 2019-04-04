@@ -1,1 +1,18 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#
+# Date:         Feburary 16, 2018
+#
+# Assignment:   Program 3: Bingo Game
+#               CMPS11: Intermediate Programming
+#               UC Santa Cruz, Winter 2018
+# 
+# Description:  Players use cards that feature ﬁve columns of ﬁve cells each,
+#               with every cell containing a number between 1 to 90. In each
+#               step of the game a number between 1 and 90 is called randomly
+#               and players need to mark the number in their card if they have
+#               it. The ﬁrst player who marks all of the numbers in one row of
+#               one of his/her cards is the winner of the game. 
+# 
+# Notes:        This program was created in Eclipse IDE.
+##################################################################################

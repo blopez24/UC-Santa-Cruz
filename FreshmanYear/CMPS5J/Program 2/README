@@ -1,15 +1,14 @@
 ##################################################################################
-# Created by:   Lopez, Bryan (blopez24) and
-#               John Mai
+# Created by:   Lopez, Bryan (blopez24)
 #
-# Date:         10/02/17
+# Date:         10/09/17
 #
-# Assignment:   Program 1: My First Day at UCSC
+# Assignment:   Program 2: Expanding on Program 1 
 #               CMPS 5J, Introduction to Programming in Java
 #               UC Santa Cruz, Fall 2017
 # 
-# Description:  This program draws a simple scene using the theme 
-#               "My First Day at UCSC".
+# Description:  This program draws a red car on a highway with moving clouds
+#               and a light blue background.
 # 
 # Notes:        This program is intended to be run from the Processing IDE.
 ##################################################################################

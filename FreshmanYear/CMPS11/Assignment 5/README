@@ -1,1 +1,21 @@
-
+##################################################################################
+# Created by:   Lopez, Bryan (blopez24)
+#
+# Date:         March 16, 2018
+#
+# Assignment:   Program 5: Calculator
+#               CMPS11: Intermediate Programming
+#               UC Santa Cruz, Winter 2018
+# 
+# Description:  A program that simulates a very simple, but unconventional,
+#               calculator. The application’s GUI should  include two text
+#               ﬁelds F1 and F2 for numerical input and a label for output.
+#               So, to compute  23 + 56, a user enters 23 into F1 and 56 into
+#               F2. There should be four buttons labeled +, −, * , and /. When
+#               button B is pressed, the operation (F1) B (F2) is computed and
+#               the result displayed on the label. If a button is pressed and a
+#               ﬁeld F1 or F2 is empty then the program should display an error
+#               message.   
+# 
+# Notes:        This program was created in Eclipse IDE.
+##################################################################################

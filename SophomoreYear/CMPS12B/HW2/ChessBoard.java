@@ -1,3 +1,13 @@
+/* Bryan Lopez
+ * blopez24 (1612626)
+ *
+ * ChessBoard.java
+ * Stores a chessboard as a linked list of chess pieces.
+ * Determine validity: verify that two pieces do not occupy the same square.
+ * Find piece: given a square, determine (if any) the chess piece at that square.
+ * Determine attack (from that piece)
+ */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +30,7 @@ public class ChessBoard
 	{
 		if(args.length < 2)
 		{
-			System.out.println("Usage: java -jar NQueens.jar <input file> <output file>");
+			System.out.println("Usage: java -jar ChessBoard.jar <input file> <output file>");
 			System.exit(1);
 		}
 
@@ -34,8 +44,6 @@ public class ChessBoard
 			String line = file.nextLine();
 			Scanner in = new Scanner(line);
 			
-			//System.out.println(line);
-			
 			theSquareColumn = in.nextInt();
 			String rowAndColon = in.next();
 			theSquareRow = Integer.parseInt(rowAndColon.substring(0,1));
@@ -45,8 +53,6 @@ public class ChessBoard
 				type = in.next();
 				column = in.nextInt();
 				row = in.nextInt();
-				
-				//System.out.println("Type: " + type + " Column: " + column + " Row: " + row);
 				
 				if(type.equals("k") || type.equals("K"))
 				{
@@ -67,6 +73,10 @@ public class ChessBoard
 				else if(type.equals("n") || type.equals("N"))
 				{
 					p = new Knight(column, row, type);
+				}
+				else if(type.equals("p") || type.equals("P"))
+				{
+					p = new Pawn(column, row, type);
 				}
 				list.add(0, p);
 			}
@@ -164,11 +174,6 @@ public class ChessBoard
 		return false;
 	}
 	
-	boolean isAttacking(ChessPiece cp)
-	{
-		return false;
-	}
-	
 	static ChessPiece findPiece(int c, int r)
 	{
 		for(int i = 0; i < list.size(); i++)
@@ -192,16 +197,10 @@ class CPLinkedList
 		this.length = 0;
 	}
 	
-	boolean isEmpty()
-	{
-		return length == 0;
-	}
-	
 	int size()
 	{
 		return length;
 	}
-	
 	
 	Node find(int index)
 	{
@@ -236,24 +235,6 @@ class CPLinkedList
 		}
 	}
 	
-	void remove(int index)
-	{
-		if(index >= 0 && index < length)
-		{
-			if(index == 0)
-				head = head.next;
-			else
-			{
-				Node previous = find(index-1);
-				
-				Node current = previous.next;
-				previous.next = current.next;
-			}
-			
-			length--;
-		}
-	}
-	
 	Object get(int index)
 	{
 		if(index >= 0 && index < length)
@@ -264,12 +245,6 @@ class CPLinkedList
 		}
 		
 		return null;
-	}
-	
-	void removeAll()
-	{
-		head = null;
-		length = 0;
 	}
 }
 
@@ -289,37 +264,11 @@ class Node
 		this.data = cp;
 		this.next = nextNode;
 	}
-	
-	ChessPiece getData()
-	{
-		return data;
-	}
-	
-	void setData(ChessPiece cp)
-	{
-		this.data = cp;
-	}
-	
-	Node getNext()
-	{
-		return next;
-	}
-	
-	void setNext(Node nextNode)
-	{
-		this.next = nextNode;
-	}
-	
-	public String toString()
-	{
-		return data.toString();
-	}
 }
 
 class ChessPiece
 {
-	int col;
-	int row;
+	int col, row;
 	String type;
 	
 	ChessPiece()
@@ -354,11 +303,6 @@ class ChessPiece
 	String getType()
 	{
 		return this.type;
-	}
-	
-	public String toString()
-	{
-		return type + " " + col + " " + row; 
 	}
 }
 
@@ -479,7 +423,7 @@ class Rook extends ChessPiece
 	}
 }
 
-/*
+
 class Pawn extends ChessPiece
 {
 	Pawn(int r, int c, String s)
@@ -490,7 +434,27 @@ class Pawn extends ChessPiece
 	@Override
 	boolean isAttacking(ChessPiece p)
 	{
-		return true;
+		int c = this.getCol();
+		int r = this.getRow();
+		String color = p.getType();
+		
+		boolean black = !color.equals(color.toLowerCase());
+		boolean white = !color.equals(color.toUpperCase());
+		
+		if(black)
+		{
+			if(c-1 == p.col && r+1 == p.row)
+				return true;
+			if(c+1 == p.col && r+1 == p.row)
+				return true;
+		}
+		if(white)
+		{
+			if(c-1 == p.col && r-1 == p.row)
+				return true;
+			if(c+1 == p.col && r-1 == p.row)
+				return true;
+		}
+		return false;
 	}
 }
-*/

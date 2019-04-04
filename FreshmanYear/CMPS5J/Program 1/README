@@ -1,15 +1,13 @@
-##########################################################################
-# Created by:   Lopez, Bryan (blopez24) and
-#               John Mai
-#
-# Date:         10/02/17
-#
-# Assignment:   Program 1: My First Day at UCSC
-#               CMPS 5J, Introduction to Programming in Java
-#               UC Santa Cruz, Fall 2017
-# 
-# Description:  This program draws a simple scene using the theme "My
-#               First Day at UCSC".
-# 
-# Notes:        This program is intended to be run from the Processing IDE.
-##########################################################################
+Created by:     Lopez, Bryan (blopez24) and 
+                Mai, John
+                
+Date:           10/02/17
+
+Assignment:     Program 1: My First Day at UCSC
+                CMPS 5J, Introduction to Programming in Java
+                UC Santa Cruz, Fall 2017
+
+Description:    This program draws a simple scene using the theme "My
+                First Day at UCSC".
+                
+Notes:          This program is intended to be run from the Processing IDE.

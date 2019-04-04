@@ -1,11 +1,10 @@
-CMPE110: Computer Architecture
+CMPE107: CMPE107: Probability and Statistics for Engineers
 
 Date:
-TBD
+Spring 2019
 
 Description:
-Introduction to computer architecture including examples of current approaches and the effect of technology and software. Computer performance evaluation, basic combinatorial and sequential digital components, different instruction set architectures with a focus on the MIPS ISA and RISC paradigm. Evolution of CPU microarchitecture from single-cycle to multi-cycle pipelines, with overview of super-scalar, multiple-issue and VLIW. Memory system, cache, virtual memory and relationship between memory and performance. Evolution of PC system architecture. May include advanced topics, such as parallel processing, MIMD, and SIMD.
-Prerequisite(s): courses 12/L, and courses 13/L or Computer Science 12A/L or Computer Science 11. Course 16 recommended.
+Introduction to fundamental tools of stochastic analysis. Probability, conditional probability; Bayes Theorem; random variables and transforms; independence; Bernnoulli trials. Statistics, inference from limited data; outcomes of repeated experiments; applications to design; assessment of relative frequency and probability; law of large numbers; precision of measurements. Elements of stochastic processes, Poisson processes; Markov chains. Students cannot receive credit for this course and Applied Mathematics and Statistics 131. (Formerly Mathematical Methods of Systems Analysis: Stochastic.) Prerequisite(s): course 16 or 16H and Mathematics 22 or 23A. (General Education Code(s): SR.)
 
 Professor:
-TBD
+J J Garcia-Luna-Aceves 

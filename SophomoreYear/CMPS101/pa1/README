@@ -1,0 +1,19 @@
+#####################################################################
+# Created by:	Bryan Lopez
+# 		blopez24
+# 		April 15,  2019
+# 
+# Files:	List.java
+#		ListClient.java
+#		Lex.java
+#		Makefile
+#		README
+#
+# Description:	Lex.java will take two command line arguments giving
+#		the names of an input file and an output file. The
+#		input can be any text file. The output file will
+#		contain the same lines as the input arranged in
+#		lexicographic (i.e. alphabetical) order.
+#
+# Notes:	NONE
+#####################################################################
